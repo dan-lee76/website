@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <title>Dan Lee</title>
+      <meta charset="utf-8" />
+       <meta name="viewport" content="width=device-width, initial-scale=1" />
+       <link rel="shortcut icon" type="images/png" href="assets/img/icon.png">
+
+   <style>
+      body,html{
+          overflow: hidden;
+          position: relative;
+          margin:0;
+          padding: 0;
+          height: 101%;
+          background-image: url(assets/img/404/bg.jpg);
+          background-repeat: fill;
+          
+      }
+      h1{
+      font-family: Comic Sans MS;
+      font-size: 5vw;
+      text-align: center;
+      }
+      h2{
+      font-family: Comic Sans MS;
+      font-size: 2vw;
+      text-align: center;
+      }
+      
+      .rick-right-bottom{
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      object-fit: contain;
+      width: 35vw;
+      }
+
+      .rick-left-bottom{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 35vw;
+      }
+      .rick{
+      animation: spin 2s infinite linear;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 25vw;
+      }
+      @keyframes spin {
+      from {transform:rotate(0deg);}
+      to {transform:rotate(360deg);}
+      }
+      .rainbow {
+      /* Font options */
+      text-shadow: 2px 2px 4px #000000;
+      /* Chrome, Safari, Opera */
+      -webkit-animation: rainbow 5s infinite; 
+      /* Internet Explorer */
+      -ms-animation: rainbow 5s infinite;
+      /* Standar Syntax */
+      animation: rainbow 5s infinite; 
+      }
+      /* Chrome, Safari, Opera */
+      @-webkit-keyframes rainbow{
+      0%{color: orange;}	
+      10%{color: purple;}	
+      20%{color: red;}
+      30%{color: CadetBlue;}
+      40%{color: yellow;}
+      50%{color: coral;}
+      60%{color: green;}
+      70%{color: cyan;}
+      80%{color: DeepPink;}
+      90%{color: DodgerBlue;}
+      100%{color: orange;}
+      }
+      /* Internet Explorer */
+      @-ms-keyframes rainbow{
+      0%{color: orange;}	
+      10%{color: purple;}	
+      20%{color: red;}
+      30%{color: CadetBlue;}
+      40%{color: yellow;}
+      50%{color: coral;}
+      60%{color: green;}
+      70%{color: cyan;}
+      80%{color: DeepPink;}
+      90%{color: DodgerBlue;}
+      100%{color: orange;}
+      }
+      /* Standar Syntax */
+      @keyframes rainbow{
+      0%{color: orange;}	
+      10%{color: purple;}	
+      20%{color: red;}
+      30%{color: CadetBlue;}
+      40%{color: yellow;}
+      50%{color: coral;}
+      60%{color: green;}
+      70%{color: cyan;}
+      80%{color: DeepPink;}
+      90%{color: DodgerBlue;}
+      100%{color: orange;}
+      }
+   @media screen and (max-width: 810px) {
+       h1{
+           font-size: 15vw;
+       }
+       h2{
+           font-size: 7.5vw;
+       }
+       .rick-right-bottom{
+      width: 55vw;
+      }
+
+      .rick-left-bottom{
+      width: 55vw;
+      }
+      .rick{
+      width: 40vw;
+      }
+   }
+       
+   </style>
+</head>
+   <body>
+      <h1 class="rainbow">Never gonna find this page</h1>
+      <h2 class="rainbow">Find a rick to take you home</h2>
+      <a href="https://danlan.co.uk"><img class="rick-right-bottom" src="assets/img/404/rick.gif" alt="give you up"  /></a>
+      <a href="https://danlan.co.uk"><img class="rick-left-bottom" src="assets/img/404/rick.gif" alt="let you down"  /></a>
+      <a href="https://danlan.co.uk"><img class="rick"  src="assets/img/404/fav.ico" alt="never gonna"  /></a>
+   </body>
+
+</html>
