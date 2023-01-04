@@ -1,5 +1,8 @@
 import React from "react";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faGithub} from "@fortawesome/free-brands-svg-icons";
+import {faLinkedin} from "@fortawesome/free-brands-svg-icons";
+import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
 
 export default function Hero(){
 
@@ -15,8 +18,15 @@ export default function Hero(){
                 <div class="p-5">
                 <p className="text-6xl text-black">I am <span className="font-bold">Dan Lee</span>🦆</p>
                 <p className="text-3xl">Computer Science Student</p>
-                    <div>
-                        icons
+                    <p>
+                        The founder of <a className="underline" href="https://onlydans.uk">onlydans.uk</a>
+                    </p>
+                    <div className="flex pt-2">
+                        <a className="w-7 mr-2"><FontAwesomeIcon icon={faGithub} /></a>
+                        <a className="w-7 mr-2"><FontAwesomeIcon  icon={faLinkedin} /> </a>
+                        <a className="w-7 mr-2"><FontAwesomeIcon  icon={faEnvelope} /> </a>
+
+
                     </div>
                 </div>
             </header>
