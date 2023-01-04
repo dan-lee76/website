@@ -11,7 +11,7 @@ export default function Home({ repositories }) {
             title="Dan Lee"
             description="This is a template built specifically for my blog - Creating a developer portfolio that gets you a job."
         >
-            <NavBar></NavBar>
+            {/*<NavBar></NavBar>*/}
         <Hero></Hero>
         </ContainerBlock>
     );
