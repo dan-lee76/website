@@ -6,7 +6,7 @@ import "animate.css/animate.min.css";
 import Footer from "../components/Footer";
 
 
-export default function Home({ repositories }) {
+export default function Home() {
     return (
         <div className="smooth-scroll bg-center bg-cover bg-sky-900 text-gray-900">
         <ContainerBlock
