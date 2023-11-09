@@ -31,12 +31,12 @@ export default function ContainerBlock({ children, ...customMeta }) {
                 <meta property="og:site_name" content="Dan Lee" />
                 <meta property="og:description" content={meta.description} />
                 <meta property="og:title" content={meta.title} />
-                <meta property="og:image" content={meta.image} />
+                <meta property="og:image" content={"https://danlee.uk/dan.jpg"} />
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:site" content="@dan-lee76" />
                 <meta name="twitter:title" content={meta.title} />
                 <meta name="twitter:description" content={meta.description} />
-                <meta name="twitter:image" content={meta.image} />
+                <meta name="twitter:image" content={"https://danlee.uk/dan.jpg"} />
                 <meta name="theme-color" content="#0c4a6e" />
                 {meta.date && (
                     <meta property="article:published_time" content={meta.date} />
