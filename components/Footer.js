@@ -2,6 +2,11 @@ import React from "react";
 import SocialIcons from "./SocialIcons";
 import {AnimationOnScroll} from "react-animation-on-scroll";
 
+function getYear() {
+    const date = new Date();
+    return date.getFullYear();
+}
+
 export default function Footer() {
     return (
     <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce="true">
@@ -12,7 +17,7 @@ export default function Footer() {
                         <p className="text-2xl leading-tight font-medium">Get in touch</p>
                         <div>
                             <SocialIcons/>
-                            <footer className="text-center text-gray-500"> © 2023 Dan Lee. All rights reserved.</footer>
+                            <footer className="text-center text-gray-500"> © {getYear()} Dan Lee. All rights reserved.</footer>
                         </div>
                     </div>
                 </div>
