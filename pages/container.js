@@ -21,7 +21,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
                 <link rel={"icon"} href={"/icon.png"} />
                 <meta
                     property="og:url"
-                    content={`https://danlee.uk{router.asPath}`}
+                    content={`https://danlee.uk${router.asPath}`}
                 />
                 <link
                     rel="canonical"
