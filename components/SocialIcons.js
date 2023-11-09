@@ -1,6 +1,6 @@
 import React from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faLinkedin, faSquareGithub, faSquareTwitter} from "@fortawesome/free-brands-svg-icons";
+import {faLinkedin, faSquareGithub, faSquareXTwitter} from "@fortawesome/free-brands-svg-icons";
 import {faSquareEnvelope} from "@fortawesome/free-solid-svg-icons";
 
 export default function SocialIcons() {
@@ -11,8 +11,8 @@ export default function SocialIcons() {
             <a href="https://github.com/dan-lee76" className="self-end"><FontAwesomeIcon
                 className="w-8 transition duration-150 ease-in-out hover:text-sky-800"
                 icon={faSquareGithub}/></a>
-            <a className="self-end"><FontAwesomeIcon className="w-8 transition duration-150 ease-in-out hover:text-sky-800" icon={faSquareTwitter} /></a>
-            <a className="self-end"><FontAwesomeIcon className="w-8 transition duration-150 ease-in-out hover:text-sky-800"
+            <a href="https://x.com/NoSoAverageGuy" className="self-end"><FontAwesomeIcon className="w-8 transition duration-150 ease-in-out hover:text-sky-800" icon={faSquareXTwitter} /></a>
+            <a href="mailto:contact@danlee.uk" className="self-end"><FontAwesomeIcon className="w-8 transition duration-150 ease-in-out hover:text-sky-800"
                                 icon={faSquareEnvelope}/> </a>
             <a href="https://linkedin.com/in/dan-lee76" className="self-end"><FontAwesomeIcon
                 className="w-8 transition duration-150 ease-in-out hover:text-sky-800"

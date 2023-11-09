@@ -23,7 +23,7 @@ export default function Showcase(props) {
                     <ShowcaseButton title="View" location="https://onlydans.uk"/>
                 </BrickLargeImage>
                 <BrickLargeImage title="Rambling & Hiking Club" subtitle="Frontend" img="ramsoc_logo.png">
-                    <p>Development for the University of Nottingham Rambling and Hiking Club. Displayed relevant
+                    <p>Developed for the University of Nottingham Rambling and Hiking Club. Displayed relevant
                         information for hikers, and mapped out routes using mapbox.</p>
                     <ShowcaseButton title="View" location="https://ramsoc.co.uk"/>
                 </BrickLargeImage>
@@ -46,6 +46,16 @@ export default function Showcase(props) {
                             year="2023-2024">
                     <p>During my time in the club I became a grade 2 walk leader, first aider and a trained grade 3 walk
                         leader.</p>
+                </BrickImage>
+                <BrickImage title="Mentor" subtitle="School of Computer Science" img="uon_logo.png"
+                            year="2022-2023">
+                </BrickImage>
+                <BrickImage title="Leader" subtitle="GDSC Nottingham" img="gdsc_logo.png"
+                            year="2022-2023">
+                </BrickImage>
+                <BrickImage title="Treasurer" subtitle="HackSoc Nottingham" img="hacksoc_logo.png"
+                            year="2022-2023">
+
                 </BrickImage>
                 {/*    <ItemWrapper title="Campus Expert" subtitle="GitHub"/>*/}
                 {/*<ItemWrapper title="GDSC Lead" subtitle="Google Developer Student Clubs" description="I am the lead for the GDSC at the University of Nottingham."></ItemWrapper>*/}

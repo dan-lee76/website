@@ -7,8 +7,8 @@ export default function ContainerBlock({ children, ...customMeta }) {
 
     const meta = {
         title: "Dan Lee.",
-        description: `I am Dan Lee`,
-        image: "/avatar.png",
+        description: `Dan Lee. A Software Engineer at Capital One UK. Student at the University of Nottingham, and you're average hiking enthusiast.`,
+        image: "/dan.jpg",
         type: "website",
         ...customMeta,
     };
@@ -18,6 +18,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
                 <title>{meta.title}</title>
                 <meta name="robots" content="follow, index" />
                 <meta content={meta.description} name="description" />
+                <link rel={"icon"} href={"/icon.png"} />
                 <meta
                     property="og:url"
                     content={`https://danlee.uk{router.asPath}`}
@@ -36,7 +37,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
                 <meta name="twitter:title" content={meta.title} />
                 <meta name="twitter:description" content={meta.description} />
                 <meta name="twitter:image" content={meta.image} />
-                <meta name="theme-color" content="#0c4a6e"></meta>
+                <meta name="theme-color" content="#0c4a6e" />
                 {meta.date && (
                     <meta property="article:published_time" content={meta.date} />
                 )}
