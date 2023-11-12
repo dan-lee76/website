@@ -11,7 +11,7 @@ export default function Home() {
         <div className="smooth-scroll bg-center bg-cover bg-sky-900 text-gray-900">
         <ContainerBlock
             title="Dan Lee"
-            description="Dan Lee. A Software Engineer at Capital One UK. Student at the University of Nottingham, and you're average hiking enthusiast."
+            description="Dan Lee. A Software Engineer at Capital One UK. Student at the University of Nottingham, and your average hiking enthusiast."
         >
             <div>
                 <Hero/>
