@@ -11,11 +11,20 @@ export default function Showcase(props) {
     return (
         <div className="space-y-8">
             <ItemGroup title="Experience">
+            <BrickImage title="Smart Bar Assistant" subtitle="University of Nottingham" img="uon_logo.png"
+                            year="2024-2025"/>
                 <BrickImage title="Software Developer Enginer (Placement)" subtitle="Capital One"
                             img="capitalone_logo.png" year="2023-2024">
+                    <p>Rotated between two teams, Data & Web. Contributed to Developer API, .co.uk, internal ML platform and internal libraries and tools.</p>
                 </BrickImage>
                 <BrickImage title="Student I.T Support Tutor" subtitle="University of Nottingham" img="uon_logo.png"
                             year="2022-2023"/>
+            </ItemGroup>
+            <ItemGroup title="Licenses & Certifications">
+                <BrickImage title="Amazon Web Services Cloud Practioner" subtitle="Amazon"
+                            img="https://images.credly.com/size/340x340/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" year="Issued Jun 2024 | Expires June 2027">
+                    <ShowcaseButton title="Show Credential" location="https://www.credly.com/badges/049cb5a3-4473-4fcc-a1a0-86549041e9a4/public_url"/>
+                </BrickImage>
             </ItemGroup>
             <ItemGroup title="Projects">
                 <BrickLargeImage title="OnlyDans" subtitle="Fullstack" img="onlydans_logo.png">

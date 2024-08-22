@@ -4,7 +4,7 @@ import {AnimationOnScroll} from "react-animation-on-scroll";
 export default function BrickImage(props) {
     return (
         <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce="true">
-        <div className="flex flex-col items-center justify-center w-full h-full mb-2">
+        <div className="flex flex-col items-center justify-center w-full h-full mt-5 mb-5">
             <div className="w-full h-full rounded-lg shadow-lg bg-white">
                 <div className="grid grid-cols-1 sm:grid-cols-2 p-8">
                     <div className="flex sm:justify-end sm:order-2 justify-center mb-4">
