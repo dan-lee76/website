@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      sans: ['"Source Sans 3"', 'sans-serif']
+      sans: ['"DM Sans"', 'sans-serif']
     },
   },
   plugins: [

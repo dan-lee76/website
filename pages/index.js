@@ -9,18 +9,18 @@ import Footer from "../components/Footer";
 export default function Home() {
     return (
         <div className="smooth-scroll bg-center bg-cover bg-sky-900 text-gray-900">
-        <ContainerBlock
-            title="Dan Lee"
-            description="Dan Lee. Student at the University of Nottingham, and your average hiking enthusiast."
-        >
-            <div>
-                <Hero/>
-                <div className="container mx-auto lg:w-3/4 p-3">
-                    <Showcase/>
-                    <Footer/>
+            <ContainerBlock
+                title="Dan Lee"
+                description="Dan Lee. Student at the University of Nottingham studying Computer Science, and your average hiking enthusiast. Incoming Software Engineer at Capital One UK."
+            >
+                <div>
+                    <Hero/>
+                    <div className="container mx-auto lg:w-3/4 md:px-16 p-3">
+                        <Showcase/>
+                        <Footer/>
+                    </div>
                 </div>
-            </div>
-        </ContainerBlock>
+            </ContainerBlock>
         </div>
     );
 }
