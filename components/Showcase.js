@@ -49,7 +49,8 @@ export default function Showcase(props) {
                 </BrickImage>
             </ItemGroup>
             <ItemGroup title="Projects">
-                <BrickLargeImage title="Rambling & Hiking Club" subtitle="Frontend" img="ramsoc_logo.png">
+                <BrickLargeImage title="Rambling & Hiking Club" subtitle="Frontend |" development="Released"
+                                 img="ramsoc_logo.png">
                     <p>Developed for the University of Nottingham Rambling and Hiking Club. Display's relevant
                         information for hikers, and mapped out routes using mapbox.</p>
                     <div className="block">
@@ -63,7 +64,24 @@ export default function Showcase(props) {
                         <Pill title="Markdown"/>
                     </Pills>
                 </BrickLargeImage>
-                <BrickLargeImage title="OnlyDans" subtitle="Fullstack" img="onlydans_logo.png">
+                <BrickImage title="Generative Pathfinding Algorithm for UK Hiking Routes"
+                            subtitle="Research (Dissertation) |" development="Active Development" img="uon_logo.png">
+                    <p>As part of my university studies, I am developing an algorithm to generate a user-specified
+                        hiking route, to help get hikers to the outdoors quicker, and make the hills more accessible for
+                        people.</p>
+                    <div className="block">
+                        <ShowcaseButton title="Paper (Releasing Q2)" />
+                        <ShowcaseButton title="Code (Releasing Q2)" />
+                    </div>
+                    <Pills>
+                        <Pill title="Python"/>
+                        <Pill title="JS"/>
+                        <Pill title="GeoSpatial Data"/>
+                        <Pill title="OSM"/>
+                        <Pill title="Open Access Government Data"/>
+                    </Pills>
+                </BrickImage>
+                <BrickLargeImage title="OnlyDans" subtitle="Fullstack |" development="Archived" img="onlydans_logo.png">
                     <p>A media content sharing site, showcasing my university adventure. Also has its own admin panel.
                         Currently decommissioned.</p>
                     <ShowcaseButton title="Code" location="https://github.com/dan-lee76/onlydans"/>
@@ -73,11 +91,11 @@ export default function Showcase(props) {
                         <Pill title="SQL"/>
                     </Pills>
                 </BrickLargeImage>
-                <BrickLargeImage title="Nottes" subtitle="Notes" img="nottes_logo.png">
+                <BrickLargeImage title="Nottes" subtitle="Notes |" development="Released" img="nottes_logo.png">
                     <p>Viewable version of my notes whilst studying at the University of Nottingham</p>
                     <ShowcaseButton title="View" location="https://notes.danlee.uk"/>
                 </BrickLargeImage>
-                <BrickImage title="OSMap Scraper" subtitle="API" img="os_logo.png">
+                <BrickImage title="OSMap Scraper" subtitle="API |" development="Released" img="os_logo.png">
                     <p>Node.js web scraper to get obtain from ordnance survey walk's. Including, elevation, distance and
                         plotted route. Hosted on cloudflare worker.</p>
                     <ShowcaseButton title="Code" location="https://github.com/dan-lee76/OSMapsExporter"/>
@@ -96,7 +114,8 @@ export default function Showcase(props) {
                 <BrickImage title="President" subtitle="Rambling & Hiking Club" img="rambling_logo.png"
                             year="2023-2024">
                     <p>During my time in the club I led countless walks as a Grade 2/3 leader alongside being a verified
-                        First Aider. During my term as president I oversaw the organisation of 17 weekly hikes, 3 special
+                        First Aider. During my term as president I oversaw the organisation of 17 weekly hikes, 3
+                        special
                         hikes, 4 training courses, 4 weekend trips, a 90th Anniversary Celebration, an epic Scotland
                         adventure, and welcomed over 200 members.</p>
                 </BrickImage>

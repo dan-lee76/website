@@ -12,7 +12,7 @@ export default function BrickLargeImage(props) {
                         </div>
                         <div className="text-center sm:text-left space-y-2 flex my-auto flex-col">
                             <p className="text-2xl leading-tight font-medium">{props.title}</p>
-                            {props.subtitle && <p className="text-xl leading-tight font-medium">{props.subtitle}</p>}
+                            {props.subtitle && <p className="text-xl leading-tight font-medium">{props.subtitle}{props.development && <span className="italic"> {props.development}</span>}</p>}
                             {props.year && <p className="text-gray-700 leading-normal text-lg">{props.year}</p>}
                             <div className="space-y-2 flex my-auto flex-col">
                                 {props.children}
