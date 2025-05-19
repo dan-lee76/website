@@ -15,7 +15,10 @@ export default function Hero(){
                         <div className="sm:self-center gap-2 space-y-2">
                             <h1 className="text-6xl text-center sm:text-left min-h-max flex-nowrap tracking-wide font-medium">Howdy, I'm <span className=" text-sky-800 font-extrabold">Dan Lee</span><span className="animate-bounce repeat-1">🦆</span></h1>
                             <p className="text-3xl text-center sm:text-left">
-                                Final year student at the <a className="underline transition font-bold text-sky-800 hover:text-white" href="https://nottingham.ac.uk">University of Nottingham</a>
+                                Returning Software Engineer at <a className="underline transition font-bold text-sky-800 hover:text-white" href="https://capitalone.co.uk">Capital One UK</a>
+                            </p>
+                            <p className="text-2xl text-center sm:text-left">
+                                Graduating student at the <a className="underline transition font-bold text-sky-800 hover:text-white" href="https://nottingham.ac.uk">University of Nottingham</a>
                             </p>
                             <SocialIcons/>
                         </div>
