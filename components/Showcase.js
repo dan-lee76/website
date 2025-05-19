@@ -49,23 +49,8 @@ export default function Showcase(props) {
                 </BrickImage>
             </ItemGroup>
             <ItemGroup title="Projects">
-                <BrickLargeImage title="Rambling & Hiking Club" subtitle="Frontend |" development="Released"
-                                 img="ramsoc_logo.png">
-                    <p>Developed for the University of Nottingham Rambling and Hiking Club. Display's relevant
-                        information for hikers, and mapped out routes using mapbox.</p>
-                    <div className="block">
-                        <ShowcaseButton title="View" location="https://ramsoc.co.uk"/>
-                        <ShowcaseButton title="Code"
-                                        location="https://github.com/UoN-Rambling-Hiking/RamblingHikingWebsite"/>
-                    </div>
-                    <Pills>
-                        <Pill title="Node.js"/>
-                        <Pill title="Hugo"/>
-                        <Pill title="Markdown"/>
-                    </Pills>
-                </BrickLargeImage>
                 <BrickImage title="Generative Pathfinding Algorithm for UK Hiking Routes"
-                            subtitle="Research (Dissertation) |" development="Active Development" img="uon_logo.png">
+                            subtitle="Research (Dissertation) |" development="In Review" img="uon_logo.png">
                     <p>As part of my university studies, I am developing an algorithm to generate a user-specified
                         hiking route, to help get hikers to the outdoors quicker, and make the hills more accessible for
                         people.</p>
@@ -81,6 +66,21 @@ export default function Showcase(props) {
                         <Pill title="Open Access Government Data"/>
                     </Pills>
                 </BrickImage>
+                <BrickLargeImage title="Rambling & Hiking Club" subtitle="Frontend |" development="Released"
+                                 img="ramsoc_logo.png">
+                    <p>Developed for the University of Nottingham Rambling and Hiking Club. Display's relevant
+                        information for hikers, and mapped out routes using mapbox.</p>
+                    <div className="block">
+                        <ShowcaseButton title="View" location="https://ramsoc.co.uk"/>
+                        <ShowcaseButton title="Code"
+                                        location="https://github.com/UoN-Rambling-Hiking/RamblingHikingWebsite"/>
+                    </div>
+                    <Pills>
+                        <Pill title="Node.js"/>
+                        <Pill title="Hugo"/>
+                        <Pill title="Markdown"/>
+                    </Pills>
+                </BrickLargeImage>
                 <BrickLargeImage title="OnlyDans" subtitle="Fullstack |" development="Archived" img="onlydans_logo.png">
                     <p>A media content sharing site, showcasing my university adventure. Also has its own admin panel.
                         Currently decommissioned.</p>
