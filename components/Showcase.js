@@ -13,16 +13,19 @@ export default function Showcase(props) {
     return (
         <div className="space-y-8">
             <ItemGroup title="Experience">
+                <BrickImage title="Software Development Engineer" subtitle="Capital One"
+                            img="capitalone_logo.png" year="Sept. 2025">
+                </BrickImage>
                 <BrickImage title="Senior Smart Bar Assistant" subtitle="University of Nottingham" img="uon_logo.png"
                             year="2024-2025">
                     <p>Managed the team whilst on shift. Being the primary call of support for the Smart Bar
-                        Assistants and answering any of their quires. Along with escalating any necessary issues with
+                        Assistants and answering any of their queries. Along with escalating any necessary issues with
                         the Analysis team. Would authorise Azure MFA requests.</p>
                     <Pills>
                         <Pill title="Azure"/>
                     </Pills>
                 </BrickImage>
-                <BrickImage title="Software Development Enginer (Placement)" subtitle="Capital One"
+                <BrickImage title="Software Development Engineer (Placement)" subtitle="Capital One"
                             img="capitalone_logo.png" year="2023-2024">
                     <p>Rotated between two teams, Data & Web. Contributed to Developer API, .co.uk, internal ML platform
                         and internal libraries/tools.</p>
@@ -124,6 +127,9 @@ export default function Showcase(props) {
                 </BrickImage>
                 <BrickImage title="Leader" subtitle="GDSC Nottingham" img="gdsc_logo.png"
                             year="2022-2023">
+                </BrickImage>
+                <BrickImage title="Expert" subtitle="Github Campus" img="campus_expert.png"
+                            year="2022-2025">
                 </BrickImage>
                 <BrickImage title="Treasurer" subtitle="HackSoc Nottingham" img="hacksoc_logo.png"
                             year="2022-2023">
