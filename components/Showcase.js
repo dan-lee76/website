@@ -53,13 +53,13 @@ export default function Showcase(props) {
             </ItemGroup>
             <ItemGroup title="Projects">
                 <BrickImage title="Generative Pathfinding Algorithm for UK Hiking Routes"
-                            subtitle="Research (Dissertation) |" development="In Review" img="uon_logo.png">
+                            subtitle="Research (Dissertation) |" development="Released" img="uon_logo.png">
                     <p>As part of my university studies, I am developing an algorithm to generate a user-specified
                         hiking route, to help get hikers to the outdoors quicker, and make the hills more accessible for
-                        people.</p>
+                        people. Grade: 80%.</p>
                     <div className="block">
-                        <ShowcaseButton title="Paper (Releasing Q2)" />
-                        <ShowcaseButton title="Code (Releasing Q2)" />
+                        <ShowcaseButton title="Paper (Releasing Q3)" />
+                        <ShowcaseButton title="Code"  location="https://github.com/dan-lee76/dissertation-backend"/>
                     </div>
                     <Pills>
                         <Pill title="Python"/>
@@ -109,8 +109,8 @@ export default function Showcase(props) {
                 </BrickImage>
             </ItemGroup>
             <ItemGroup title="Education">
-                <BrickImage title="BSc Computer Science with Year in Industry" subtitle="University of Nottingham"
-                            description="Currently in my second year. " img="uon_logo.png" year="2021-2025">
+                <BrickImage title="BSc Computer Science with Year in Industry" subtitle="University of Nottingham" img="uon_logo.png" year="2021-2025">
+                    <p>Grade: First Class</p>
                 </BrickImage>
             </ItemGroup>
             <ItemGroup title="Volunteer Experience">
