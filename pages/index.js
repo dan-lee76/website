@@ -4,11 +4,19 @@ import Hero from "../components/Hero";
 import Showcase from "../components/Showcase";
 import "animate.css/animate.min.css";
 import Footer from "../components/Footer";
+import Snowfall from "react-snowfall";
 
+
+function Snow(){
+    if (new Date().getMonth() === 11){
+        return <Snowfall />;
+    }
+}
 
 export default function Home() {
     return (
         <div className="smooth-scroll bg-center bg-cover bg-sky-900 text-gray-900">
+            <Snow />
             <ContainerBlock
                 title="Dan Lee"
                 description="Dan Lee. Student at the University of Nottingham studying Computer Science, and your average hiking enthusiast. Incoming Software Engineer at Capital One UK."
